@@ -487,19 +487,19 @@ img {
     
 }
 
-.portfolio-item {
+.portfolio-link {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-item:hover,
-.portfolio-item:focus {
+.portfolio-link:hover,
+.portfolio-link:focus {
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 
     0px 1px 1px rgba(0, 0, 0, 0.14), 
     0px 1px 3px rgba(0, 0, 0, 0.12);
 }
 
-.portfolio-item:hover .detailed-description,
-.portfolio-item:focus .detailed-description {
+.portfolio-link:hover .detailed-description,
+.portfolio-link:focus .detailed-description {
     transform: translate(0, -100%);
 }
 
